@@ -14,7 +14,7 @@ public class Person {
 	private Parrot parrot;
 
 	@Autowired
-	public Person(Parrot parrot) {
+	public void setParrot(Parrot parrot) {
 		this.parrot = parrot;
 	}
 
